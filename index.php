@@ -37,7 +37,7 @@ class Form
     }
 }
 
-$myForm = new Form('POST', 'action.php');
+$myForm = new Form('POST', 'action');
 
 $myForm->addLabel('Name', 'name');
 $myForm->addInput('text', 'name', '', 'name');
